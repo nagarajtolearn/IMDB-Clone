@@ -38,6 +38,7 @@ const Home = () => {
                   src={`https://image.tmdb.org/t/p/original${
                     movie && movie.backdrop_path
                   }`}
+                  alt="poster"
                 />
               </div>
               <div className="posterImage__overlay">
