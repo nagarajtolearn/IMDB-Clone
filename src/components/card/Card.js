@@ -25,7 +25,7 @@ const Card = ({ movie }) => {
           to={`/movie/${movie.id}`}
           style={{ textDecoration: "none", color: "white" }}
         >
-          <div className="cards" onClick={console.log(movie.id)}>
+          <div className="cards">
             <img
               className="cards__img"
               src={`https://image.tmdb.org/t/p/original${

@@ -20,20 +20,6 @@ const MovieList = () => {
         .catch((error) => console.log(error));
     };
     getData();
-  }, []);
-
-  useEffect(() => {
-    const getData = () => {
-      fetch(
-        `https://api.themoviedb.org/3/movie/${
-          type ? type : "popular"
-        }?api_key=4be6ef9ebfa768b47ed2cbb7d6941a98&language=en-US`
-      )
-        .then((res) => res.json())
-        .then((data) => setMovieList(data.results))
-        .catch((error) => console.log(error));
-    };
-    getData();
   }, [type]);
 
   return (
