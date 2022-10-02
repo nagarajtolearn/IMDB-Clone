@@ -1,4 +1,4 @@
-# Website link https://nagaraj-imdb-clone.netlify.app
+# Website link (https://nagaraj-imdb-clone.netlify.app){:target="_blank" rel="noopener"}
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
